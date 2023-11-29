@@ -6,8 +6,11 @@
 .list {
   display: flex;
   flex-direction: column;
+   /* display: grid;
+  grid-template-columns: auto auto; */
   gap: 1rem;
   list-style: none;
+
 }
 
 .item a {
@@ -18,6 +21,7 @@
   background-color: #424242;
   border-radius: 4px;
   overflow: hidden;
+
 }
 
 .item a:hover {
