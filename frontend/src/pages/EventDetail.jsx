@@ -1,10 +1,6 @@
 import { json, redirect, useRouteLoaderData } from "react-router-dom";
 import EventItem from "../components/EventItem";
 
-// Dieser Code ruft mithilfe des useParams-Hooks den Parameter „eventId“
-// von der URL ab und zeigt ihn auf der Seite an. Die Kommentare erläutern den Zweck des useParams-Hooks
-// und die Anzeige der eventId.
-
 export default function EventDetailPage() {
   // const params = useParams();
   const data = useRouteLoaderData("event-detail");
